@@ -10,12 +10,6 @@ public class CD extends BaseDisc implements OpticalDisc{
         super(name, capacity, "Compact Disc", contents);
     }
 
-    // TODO: Implement your custom interface.
-
-    // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
-    //  need to be declared separately.
-
-
     @Override
     public void spinDisc() {
         System.out.println("Engaging subwoofer, point laser at disc, etc.");

@@ -13,7 +13,6 @@ public abstract class BaseDisc {
         this.capacity = capacity;
         this.discType = discType;
         this.contents = trimContents(contents, capacity);
-
     }
 
     private ArrayList<String> trimContents(ArrayList<String> contents, int capacity) {

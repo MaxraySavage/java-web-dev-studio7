@@ -6,8 +6,6 @@ public class Main {
 
     public static void main(String[] args){
 
-        // TODO: Declare and initialize a CD and a DVD object.
-
         ArrayList<String> trackList = new ArrayList<>();
         trackList.add("Blue by Eiffel65");
         trackList.add("All Star by Smash Mouth");
@@ -22,6 +20,9 @@ public class Main {
 
 
         // TODO: Call each CD and DVD method to verify that they work as expected.
+        System.out.println(mixTape.discInfo());
+        System.out.println(lordOfTheRings.discInfo());
+
         mixTape.spinDisc();
         mixTape.readDisc();
         mixTape.readDisc();

@@ -14,11 +14,6 @@ public class DVD extends BaseDisc implements OpticalDisc {
         this(name, capacity, new ArrayList<>());
     }
 
-    // TODO: Implement your custom interface.
-
-    // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
-    //  need to be declared separately.
-
     @Override
     public void spinDisc() {
         System.out.println("DVD spin faaast");
